@@ -1,0 +1,36 @@
+{
+    "name": "Launcher-Minecraft-Forge-The-Void",
+    "preductname": "Launcher Minecraft Forge The Void",
+    "version": "1.0.0",
+    "description": "Launcher minecraft custom  avec FORGE [ Prenium & Crack ]",
+    "main": "src/app.js",
+    "author": "No Rage",
+    "url": "http://90.30.219.178:8080/minecraft/Launcher/TheVoidForgeMinecraft",
+    "engines": {
+        "node": "^18.x.x"
+    },
+    "scripts": {
+        "start": "cross-env-shell NODE_ENV=dev electron .",
+        "build": "node build.js",
+        "dev": "nodemon --exec npm start"
+    },
+    "license": "CC0",
+    "nodemonConfig": {
+        "ext": "js,html,css"
+    },
+    "dependencies": {
+        "electron-updater": "^5.0.1",
+        "minecraft-java-core": "^3.1.1",
+        "node-fetch": "^2.6.7"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "electron": "^20.0.0",
+        "electron-builder": "^23.0.3",
+        "nodemon": "^2.0.16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NR-No-Rage/Launcher-Minecraft-Forge-The-Void.git"
+    }
+}
